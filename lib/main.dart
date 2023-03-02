@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:todo_project2/screens/todo_project2/splesh_screen.dart';
+import 'package:todo_project2/screens/todo_project3/splesh3_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SpleshScreen(),
+      home: const Splesh3Screen(),
     );
   }
 }
